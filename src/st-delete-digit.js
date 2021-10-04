@@ -20,5 +20,5 @@ export default function deleteDigit(n) {
                     return +array.join('');
                 }
             }
-            
+          return +array.slice(0, -1).join('');  
 }
