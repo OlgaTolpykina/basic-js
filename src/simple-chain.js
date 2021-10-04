@@ -5,7 +5,7 @@ import { NotImplementedError } from '../extensions/index.js';
  * 
  */
 export default {
-  chain = [];
+  chain:  [],
 
   getLength() {
     return this.chain.length;
